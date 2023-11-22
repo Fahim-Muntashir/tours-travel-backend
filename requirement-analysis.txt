@@ -1,0 +1,52 @@
+Entities : 
+User 
+Tour 
+Locations
+Review 
+Booking
+
+collections
+User 
+
+{
+    id:"1"
+    name:"Rahul"
+    email:"emai@gmail.com"
+    review:[
+        {
+            review:"good",
+            reting:""
+        }
+    ]
+    Booking:[
+        {
+            id:"1",
+            userId:"1",
+            tourName:"Dhaka -coxs Bazar"
+        }
+    ]
+}
+
+
+Tour 
+
+
+{
+    Locations : [
+        {
+            area :"ST Martin"
+
+        }
+    ]
+}
+
+Embedding vs Referencing
+Referencing:{
+
+}
+
+
+Relation of Database:
+1.one to one = 1 = tour - 1 bar review
+2.One to Many
+3.Many to Many
